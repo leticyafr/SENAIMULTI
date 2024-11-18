@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENAI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  
+    <header class="header">
+        <div class="logo">
+            <a href="https://www.senai.br">
+                <img src="senai-logo-1.png" alt="Logo SENAI" class="logo-img">
+            </a>
+        </div>
+
+    
+        <div class="menu-icon" id="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <nav class="nav" id="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="curso-mecanicaautomotiva.html">Técnico em Mecanica Automotiva</a></li>
+                <li><a href="curso-eletro.html">Técnico em Eletrotecnica</a></li>
+                <li><a href="curso-multimidia.html">Técnico em Multimídia</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+
+   
+        <div class="search-container">
+            <input type="text" placeholder="Pesquisar cursos..." class="search-box">
+        </div>
+    </header>
+
+    <section class="banner">
+        <img src="banner01.jpeg" alt="Banner 01" class="banner-img"> 
+        <div class="banner-content">
+
+          
+        </div>
+
+        
+
+    </section>
+
+    <section class="banner banner-2">
+        <img src="mecanica.png" alt="Banner 02" class="banner-img"> 
+        <div class="banner-content">
+         
+        </div>
+    </section>
+
+
+    <section class="banner banner-2">
+        <img src="multimidia.png" alt="Banner 02" class="banner-img"> 
+        <div class="banner-content">
+         
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <p>&copy; 2024 SENAI | Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const navMenu = document.getElementById('nav-menu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
